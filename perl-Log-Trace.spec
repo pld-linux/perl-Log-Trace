@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Trace
 Summary:	Log::Trace - provides a unified approach to tracing
